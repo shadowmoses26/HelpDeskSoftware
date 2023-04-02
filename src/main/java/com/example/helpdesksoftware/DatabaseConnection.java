@@ -8,8 +8,8 @@ public class DatabaseConnection {
 
     public Connection getConnetction() {
         String databaseName = "HelpDesk";
-        String databaseUser = "postgresql";
-        String databasePassword = "root";
+        String databaseUser = "";
+        String databasePassword = "";
         String url = "jdbc:postgresql://localhost:5432/postgres" + databaseName;
 
         try {
